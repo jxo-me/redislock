@@ -64,11 +64,3 @@ func main() {
 ## Contributing
 
 Contributions are welcome.
-
-## License
-
-Redsync is available under the [BSD (3-Clause) License](https://opensource.org/licenses/BSD-3-Clause).
-
-## Disclaimer
-
-This code implements an algorithm which is currently a proposal, it was not formally analyzed. Make sure to understand how it works before using it in production environments.
