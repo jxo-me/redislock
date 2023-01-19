@@ -2,6 +2,7 @@ package main
 
 import (
 	"context"
+	_ "github.com/gogf/gf/contrib/nosql/redis/v2"
 	glib "github.com/gogf/gf/v2/database/gredis"
 	"github.com/jxo-me/redislock"
 	"github.com/jxo-me/redislock/redis/gredis"
@@ -9,9 +10,12 @@ import (
 
 func main() {
 	c := &glib.Config{
-		Address: "127.0.0.1:6379",
+		Address: "172.20.203.5:6379",
+		Pass:    "aa123456",
+		Db:      1,
 	}
 	ctx := context.Background()
+
 	r, err := glib.New(c)
 	if err != nil {
 		panic(err)

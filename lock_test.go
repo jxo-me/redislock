@@ -1,6 +1,7 @@
 package redislock
 
 import (
+	_ "github.com/gogf/gf/contrib/nosql/redis/v2"
 	glib "github.com/gogf/gf/v2/database/gredis"
 	"github.com/jxo-me/redislock/redis"
 	"github.com/jxo-me/redislock/redis/gredis"

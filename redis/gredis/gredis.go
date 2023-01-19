@@ -31,7 +31,7 @@ func NewPool(delegate *gredis.Redis) redis.Pool {
 }
 
 type conn struct {
-	delegate *gredis.RedisConn
+	delegate gredis.Conn
 	ctx      context.Context
 }
 
