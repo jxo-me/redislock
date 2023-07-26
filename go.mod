@@ -3,8 +3,8 @@ module github.com/jxo-me/redislock
 go 1.18
 
 require (
-	github.com/gogf/gf/contrib/nosql/redis/v2 v2.3.1
-	github.com/gogf/gf/v2 v2.3.1
+	github.com/gogf/gf/contrib/nosql/redis/v2 v2.5.0
+	github.com/gogf/gf/v2 v2.5.0
 	github.com/hashicorp/go-multierror v1.1.1
 )
 
